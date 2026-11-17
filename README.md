@@ -6,13 +6,13 @@ Below is the complete setup how to use Grafana Pyroscope and Grafana to collect,
 To simplify the setup, I use docker images to demotrate traces in Grafana webpage.  
 
 **Setup**  
-Run the below commands to download the demo repository and run Pyroscope, Tempo and Grafana.  
+Run the below commands to download the demo repository and run Pyroscope and Grafana.  
 ```bash
 #Downloading the repository
 git clone git@github.com:hiepdng/monitoring_profiles_with_pyroscope_grafana.git
 
 #Creating volumes
-cd monitoring_traces_with_alloy_tempo_grafana
+cd monitoring_profiles_with_pyroscope_grafana
 mkdir grafana_data
 sudo chown -R 472:472 grafana_data
 mkdir pyroscope_data

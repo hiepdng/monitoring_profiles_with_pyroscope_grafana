@@ -25,14 +25,13 @@ docker compose up -d
 Go to http://localhost:3000/ to access your local Grafana webpage and view the host and containers metrics.  
 
 To view specific container webpages:  
-- Alloy: http://localhost:12345
-- Tempo: http://localhost:3200/ready or http://localhost:3200/metrics
+- Pyroscope: http://localhost:4040/
 
-**View Grafana Drilldown Traces:**  
+**View Grafana Drilldown Profiles:**  
 To view traces page:  
 - goto http://localhost:3000/
-- Click on `Drilldown` ->`Traces`
-- Make sure select `Tempo` as `Data source`
+- Click on `Drilldown` ->`Profiles`
+- Make sure select `Pyroscope` as `Data source`
 
 
 
